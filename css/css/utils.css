@@ -1,0 +1,23 @@
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes fliper {
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+@media screen and (max-width:750px) {
+    nav{
+        flex-direction: column;
+    }
+    
+}
+
+    
+
